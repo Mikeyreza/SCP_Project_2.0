@@ -1,6 +1,6 @@
 import pyglet
 
-class ScreenTwo:
+class ScreenThree:
     batch = pyglet.graphics.Batch()
 
     def __init__(self, window):

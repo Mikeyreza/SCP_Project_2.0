@@ -6,6 +6,7 @@ class ScreenFour:
 
     def __init__(self, window):
         self.window = window
+        self.window.set_location(768, 710)
 
         @self.window.event
         def on_draw():
